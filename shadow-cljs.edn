@@ -2,11 +2,11 @@
  :nrepl       {:port 7002}
  :socket-repl false
  :builds      {:app {:target           :browser
-                     :output-dir       "public/dist"
+                     :output-dir       "docs/dist"
                      :asset-path       "dist"
                      :modules          {:app {:entries [io.axrs.acnh-friend.core]}}
                      :ignore-warnings  true
-                     :devtools         {:http-root  "public"
+                     :devtools         {:http-root  "docs"
                                         :http-port  8080
                                         :after-load io.axrs.acnh-friend.core/render}
                      :compiler-options {:infer-externs :auto
