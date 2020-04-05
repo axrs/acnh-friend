@@ -1,0 +1,14 @@
+{:lein        true
+ :nrepl       {:port 7002}
+ :socket-repl false
+ :builds      {:app {:target           :browser
+                     :output-dir       "public/dist"
+                     :asset-path       "dist"
+                     :modules          {:app {:entries [io.axrs.acnh-friend.core]}}
+                     :ignore-warnings  true
+                     :devtools         {:http-root  "public"
+                                        :http-port  8080
+                                        :after-load io.axrs.acnh-friend.core/render}
+                     :compiler-options {:infer-externs :auto
+                                        :static-fns    false}
+                     :release          {:compiler-options {:elide-asserts true}}}}}

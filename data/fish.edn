@@ -1,0 +1,662 @@
+[{:name "Bitterling",
+  :price 900,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:july :september :may :june :august},
+   :southern #{:july :september :may :june :august}}}
+ {:name "Pale chub",
+  :price 200,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Crucian carp",
+  :price 160,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Dace",
+  :price 240,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Carp",
+  :price 300,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Koi",
+  :price 4000,
+  :location "Pond",
+  :time "4pm - 9am",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Goldfish",
+  :price 1300,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Pop-eyed goldfish",
+  :price 1300,
+  :location "Pond",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Ranchu goldfish",
+  :price 4500,
+  :location "Pond",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Killifish",
+  :price 300,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :october :november},
+   :southern #{:february :january :december :october :november}}}
+ {:name "Crawfish",
+  :price 200,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :october :march :november},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Soft-shelled turtle",
+  :price 3750,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :march}, :southern #{:february :march}}}
+ {:name "Snapping turtle",
+  :price 5000,
+  :location "River",
+  :time "9pm - 4am",
+  :months
+  {:northern
+   #{:february :january :april :december :october :march :november},
+   :southern
+   #{:february :january :april :december :october :march :november}}}
+ {:name "Tadpole",
+  :price 100,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern #{:january :december :september :october :november},
+   :southern #{:january :december :september :october :november}}}
+ {:name "Frog",
+  :price 120,
+  :location "Pond",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :november},
+   :southern #{:february :january :december :november}}}
+ {:name "Freshwater goby",
+  :price 400,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Loach",
+  :price 400,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:september :october :november},
+   :southern #{:september :october :november}}}
+ {:name "Catfish",
+  :price 800,
+  :location "Pond",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Giant snakehead",
+  :price 5500,
+  :location "Pond",
+  :time "9am - 4pm",
+  :months
+  {:northern #{:february :january :december},
+   :southern #{:february :january :december}}}
+ {:name "Bluegill",
+  :price 180,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Yellow perch",
+  :price 300,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:july :april :september :may :june :august},
+   :southern #{:july :april :september :may :june :august}}}
+ {:name "Black bass",
+  :price 400,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Tilapia",
+  :price 800,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:february :january :april :december :march},
+   :southern #{:february :january :april :december :march}}}
+ {:name "Pike",
+  :price 1800,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:april :may :june :march},
+   :southern #{:april :may :june :march}}}
+ {:name "Pond smelt",
+  :price 500,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:july :june :august}, :southern #{:july :june :august}}}
+ {:name "Sweetfish",
+  :price 900,
+  :location "River",
+  :time "All day",
+  :months
+  {:northern #{:february :january :march},
+   :southern #{:february :january :march}}}
+ {:name "Cherry salmon",
+  :price 1000,
+  :location "River (Clifftop) Pond",
+  :time "4pm - 9am",
+  :months
+  {:northern
+   #{:april :december :september :may :october :march :november},
+   :southern
+   #{:april :december :september :may :october :march :november}}}
+ {:name "Char",
+  :price 3800,
+  :location "River (Clifftop) Pond",
+  :time "4pm - 9am",
+  :months
+  {:northern
+   #{:april :december :september :may :october :march :november},
+   :southern
+   #{:april :december :september :may :october :march :november}}}
+ {:name "Golden trout",
+  :price 15000,
+  :location "River (Clifftop)",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:april :september :may :october :march :november},
+   :southern #{:april :september :may :october :march :november}}}
+ {:name "Stringfish",
+  :price 15000,
+  :location "River (Clifftop)",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:july :september :june :august},
+   :southern #{:july :september :june :august}}}
+ {:name "Salmon",
+  :price 700,
+  :location "River (Mouth)",
+  :time "All day",
+  :months {:northern #{:march}, :southern #{:march}}}
+ {:name "King salmon",
+  :price 1800,
+  :location "River (Mouth)",
+  :time "All day",
+  :months {:northern #{:march}, :southern #{:march}}}
+ {:name "Mitten crab",
+  :price 2000,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:april :may :march}, :southern #{:april :may :march}}}
+ {:name "Guppy",
+  :price 1300,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :january :april :december :may :october :march
+     :november},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Nibble fish",
+  :price 1500,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern #{:february :january :december :march :november},
+   :southern #{:february :january :december :march :november}}}
+ {:name "Angelfish",
+  :price 3000,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Betta",
+  :price 2500,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Neon tetra",
+  :price 500,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern
+   #{:february :january :april :december :may :october :march
+     :november},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Rainbowfish",
+  :price 800,
+  :location "River",
+  :time "9am - 4pm",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Piranha",
+  :price 2500,
+  :location "River",
+  :time "9am - 4pm & 9pm - 4am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Arowana",
+  :price 10000,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Dorado",
+  :price 15000,
+  :location "River",
+  :time "4am - 9pm",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Gar",
+  :price 6000,
+  :location "Pond",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Arapaima",
+  :price 10000,
+  :location "River",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Saddled bichir",
+  :price 4000,
+  :location "River",
+  :time "9pm - 4am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Sturgeon",
+  :price 10000,
+  :location "River (Mouth)",
+  :time "All day",
+  :months
+  {:northern #{:july :april :september :may :june :march :august},
+   :southern #{:july :april :september :may :june :march :august}}}
+ {:name "Sea butterfly",
+  :price 1000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:july :september :june :august},
+   :southern #{:july :september :june :august}}}
+ {:name "Sea horse",
+  :price 1100,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :january :april :december :may :october :march
+     :november},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Clown fish",
+  :price 650,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :october :march :november},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Surgeonfish",
+  :price 1000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :october :march :november},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Butterfly fish",
+  :price 1000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :october :march :november},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Napoleonfish",
+  :price 10000,
+  :location "Sea",
+  :time "4am - 9pm",
+  :months
+  {:northern #{:february :january}, :southern #{:february :january}}}
+ {:name "Zebra turkeyfish",
+  :price 500,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :january :april :december :may :october :march
+     :november},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Blowfish",
+  :price 5000,
+  :location "Sea",
+  :time "6pm - 4am",
+  :months
+  {:northern #{:july :may :june :august},
+   :southern #{:july :may :june :august}}}
+ {:name "Puffer fish",
+  :price 250,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :march},
+   :southern #{:february :january :march}}}
+ {:name "Anchovy",
+  :price 200,
+  :location "Sea",
+  :time "4am - 9pm",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Horse mackerel",
+  :price 150,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Barred knifejaw",
+  :price 5000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :january :april :december :september :may :october
+     :march :november},
+   :southern
+   #{:february :january :april :december :september :may :october
+     :march :november}}}
+ {:name "Sea bass",
+  :price 400,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Red snapper",
+  :price 3000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Dab",
+  :price 300,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:july :april :september :may :june :october :august},
+   :southern #{:july :april :september :may :june :october :august}}}
+ {:name "Olive flounder",
+  :price 800,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Squid",
+  :price 500,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :december :september :june :october
+     :november :august},
+   :southern
+   #{:february :july :january :december :september :june :october
+     :november :august}}}
+ {:name "Moray eel",
+  :price 2000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :april :march},
+   :southern #{:february :april :march}}}
+ {:name "Ribbon eel",
+  :price 600,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :april :december :march},
+   :southern #{:february :january :april :december :march}}}
+ {:name "Tuna",
+  :price 7000,
+  :location "Pier",
+  :time "All day",
+  :months
+  {:northern #{:july :september :may :june :october :august},
+   :southern #{:july :september :may :june :october :august}}}
+ {:name "Blue marlin",
+  :price 10000,
+  :location "Pier",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :september :may :june :october :march
+     :august},
+   :southern
+   #{:february :july :january :september :may :june :october :march
+     :august}}}
+ {:name "Giant trevally",
+  :price 4500,
+  :location "Pier",
+  :time "All day",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Mahi-mahi",
+  :price 6000,
+  :location "Pier",
+  :time "All day",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Ocean sunfish",
+  :price 4000,
+  :location "Sea",
+  :time "4am - 9pm",
+  :months
+  {:northern #{:february :january :march},
+   :southern #{:february :january :march}}}
+ {:name "Ray",
+  :price 3000,
+  :location "Sea",
+  :time "4am - 9pm",
+  :months
+  {:northern #{:february :april :may :march},
+   :southern #{:february :april :may :march}}}
+ {:name "Saw shark",
+  :price 12000,
+  :location "Sea",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Hammerhead shark",
+  :price 8000,
+  :location "Sea",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Great white shark",
+  :price 15000,
+  :location "Sea",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Whale shark",
+  :price 13000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Suckerfish",
+  :price 1500,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:february :january :december :march},
+   :southern #{:february :january :december :march}}}
+ {:name "Football fish",
+  :price 2500,
+  :location "Sea",
+  :time "4pm - 9am",
+  :months
+  {:northern #{:july :september :may :june :august},
+   :southern #{:july :september :may :june :august}}}
+ {:name "Oarfish",
+  :price 9000,
+  :location "Sea",
+  :time "All day",
+  :months
+  {:northern #{:july :september :june :october :november :august},
+   :southern #{:july :september :june :october :november :august}}}
+ {:name "Barreleye",
+  :price 15000,
+  :location "Sea",
+  :time "9pm - 4am",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Coelacanth",
+  :price 15000,
+  :location "Sea (Raining)",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}]
