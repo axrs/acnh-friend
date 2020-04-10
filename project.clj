@@ -8,5 +8,6 @@
                  [org.clojure/clojurescript "1.10.597"]
                  [org.clojure/core.async "1.1.587"]
                  [io.axrs/freactive "0.2.0-SNAPSHOT"]]
+  :jvm-opts ["-Xmx1g"]
   :source-paths ["src"]
   :test-paths ["test"])

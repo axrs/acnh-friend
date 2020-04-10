@@ -5,9 +5,57 @@
     <title>Animal Crossing New Horizons Friend</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/barecss@1.1.1/css/bare.min.css">
+    <style>
+        menu menuitem a span {
+            position: absolute;
+            left: 1rem
+        }
+
+        nav:not([class]) header a, nav[xx] header a {
+            left: 1rem
+        }
+
+        section:not([class]), section[xx] {
+            padding-top: 12rem
+        }
+
+        @media (max-width: 50rem) {
+            section:not([class]), section[xx] {
+                padding-top: 6rem
+            }
+        }
+
+        #search {
+            padding: 1rem;
+            height: auto
+        }
+
+        #search input,
+        #search button {
+            display: inline-block;
+            margin-bottom: 0;
+        }
+
+        #search input {
+            width: 70%;
+            margin-right: 5%
+        }
+
+        #search button {
+            width: 25%;
+            margin-right: 0;
+        }
+
+        nav label ul {
+            z-index: 9999;
+        }
+
+        td:last-of-type {
+            text-align: right;
+        }
+    </style>
 </head>
-<body>
-<div id="root">Loading</div>
+<body id="root">
 <script src="dist/app.js"></script>
 </body>
 </html>
