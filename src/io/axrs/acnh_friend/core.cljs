@@ -1,9 +1,13 @@
 (ns io.axrs.acnh-friend.core
   (:refer-clojure :exclude [atom])
   (:require-macros [io.axrs.acnh-friend.macros :refer [read-file]])
-  (:require [freactive.core :refer [atom cursor lens-cursor rx]]
-            [freactive.dom :as dom]
-            [clojure.string :as str]))
+  (:require
+    [clojure.string :as str]
+    [freactive.core :refer [atom cursor lens-cursor rx]]
+    [freactive.dom :as frx-dom]
+    [io.axrs.acnh-friend.dom.core :as dom]
+    [io.axrs.acnh-friend.dom.input :as input]
+    [io.axrs.acnh-friend.dom.event :as event]))
 
 (enable-console-print!)
 
@@ -36,25 +40,29 @@
     [[:tbody (rx (mapv render-critter @critters-cursor))]]))
 
 (defn- set-search [^js event]
-  (let [v (some-> event (.-target) (.-value))]
-    (swap! state assoc :search v)))
+  (->> event
+       event/target-value
+       (swap! state assoc :search)))
+
+(defn- close-menu []
+  (->> "#menu-toggle"
+       dom/find
+       input/uncheck))
+
+(defn- focus-search []
+  (->> "#search input"
+       dom/find
+       input/focus))
 
 (defn- clear-search []
-  (swap! state dissoc :search))
+  (close-menu)
+  (swap! state dissoc :search)
+  (focus-search))
 
-(defn- stop-bubble [^js event]
-  (doto event
-    (.stopPropagation)
-    (.preventDefault)))
-
-(defn- toggle-hemisphere [key ^js event]
-  (stop-bubble event)
-  (js/console.log "Toggle Hemisphere" (name key))
+(defn- toggle-hemisphere [key ^js _]
   (swap! state assoc :hemisphere key))
 
-(defn- toggle-month [key ^js event]
-  (stop-bubble event)
-  (js/console.log "Toggle Month" (name key))
+(defn- toggle-month [key ^js _]
   (swap! state assoc :month key))
 
 (defn- filter-critters [state]
@@ -72,18 +80,19 @@
 
 (defn nav [hemisphere-cursor month-cursor search-cursor]
   [:nav {:fx true}
-
-   [:label [:input {:type "checkbox"}]
+   [:label {:on-focus #(prn "Menu Focused")
+            :on-blur  #(prn "Menu Blur")}
+    [:input#menu-toggle {:type "checkbox"}]
     [:header [:a "ACNH - Friend"]]
     [:ul
      [:li [:a "Hemisphere"]
       (rx
         (let [selected-hemisphere @hemisphere-cursor]
           [:menu
-           [:menuitem {:on-click (partial toggle-hemisphere :northern)}
+           [:menuitem {:on-click (comp (partial toggle-hemisphere :northern) event/stop-bubble)}
             [:a "Northern"
              (tick :northern selected-hemisphere)]]
-           [:menuitem {:on-click (partial toggle-hemisphere :southern)}
+           [:menuitem {:on-click (comp (partial toggle-hemisphere :southern) event/stop-bubble)}
             [:a "Southern"
              (tick :southern selected-hemisphere)]]]))]
      [:li [:a "Months"]
@@ -100,6 +109,7 @@
    [:label#search
     [:input {:placeholder "Search"
              :value       (rx @search-cursor)
+             :on-focus    close-menu
              :on-keyup    set-search
              :on-change   set-search}]
     [:button {:on-click clear-search} "Clear"]]])
@@ -109,20 +119,15 @@
         hemisphere-cursor (cursor state :hemisphere)
         month-cursor (cursor state :month)
         critters-cursor (lens-cursor state filter-critters)]
-    [
-     (nav hemisphere-cursor month-cursor search-cursor)
+    [(nav hemisphere-cursor month-cursor search-cursor)
      [:section
-      ;[:label#search
-      ; [:input {:placeholder "Search"
-      ;          :value       (rx @search)
-      ;          :on-keyup    set-search
-      ;          :on-change   set-search}]
-      ; [:button {:on-click clear-search} "Clear"]]
       (render-critters critters-cursor)]]))
 
 (defn render []
-  (let [root-node (.getElementById js/document "root")]
-    (set! (.-innerHTML root-node) "")
-    (dom/mount! root-node (root))))
+  (when-let [root-node (dom/find "#root")]
+    (dom/clear root-node)
+    (frx-dom/mount! root-node (root)))
+  nil)
 
-(render)
+(defonce render-once (delay (render)))
+@render-once
