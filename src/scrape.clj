@@ -7,21 +7,24 @@
 (require '[clojure.string :as str])
 (use 'com.rpl.specter)
 
-(def northern_html (slurp "/Users/axrs/Downloads/bugs_northern.html"))
-(def southern_html (slurp "/Users/axrs/Downloads/bugs_southern.html"))
-
 (defn- keep-vals [content]
   (filter (fn [x]
             (or (map? x)
                 (not (str/blank? x))))
           content))
 
+(defn- format-time [v]
+  (-> v
+      (str/replace " AM" "AM")
+      (str/replace " PM" "PM")
+      (str/replace " - " "-")))
+
 (defn ->critter [name img price location time jan feb mar apr may jun jul aug sep oct nov dec]
   (let [name (-> name first :content first str/trim)]
     {:name     name
      :price    (-> price first str/trim read-string)
      :location (-> location first str/trim)
-     :time     (-> time first :content first str/trim)
+     :time     (-> time first :content first str/trim format-time)
      :months   (->> [jan feb mar apr may jun jul aug sep oct nov dec]
                     (map first)
                     (zipmap [:january :february :march :april :may :june :july :august :september :october :november :december])
@@ -56,10 +59,14 @@
     northern
     southern))
 
+(def northern_html (slurp (str *script-dir* "/data/bugs_northern.html")))
+(def southern_html (slurp (str *script-dir* "/data/bugs_southern.html")))
+
 (let [northern-critters (parse-critters :northern northern_html)
       southern-critters (parse-critters :southern southern_html)]
   (->> (merge-hemispheres northern-critters southern-critters)
        vec
+       (sort-by :name)
        pprint
        with-out-str
        (spit "../data/bugs.edn")))

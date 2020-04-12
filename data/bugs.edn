@@ -1,110 +1,15 @@
-[{:name "Common butterfly",
-  :price 160,
-  :location "Flying",
-  :time "4am - 7pm",
-  :months
-  {:northern
-   #{:february :january :april :december :september :may :june :october
-     :march :november},
-   :southern
-   #{:july :april :december :september :may :june :october :march
-     :november :august}}}
- {:name "Yellow butterfly",
-  :price 160,
-  :location "Flying",
-  :time "4am - 7pm",
-  :months
-  {:northern #{:april :september :may :june :october :march},
-   :southern #{:april :december :september :october :march :november}}}
- {:name "Tiger butterfly",
-  :price 240,
-  :location "Flying",
-  :time "4am - 7pm",
-  :months
-  {:northern #{:july :april :september :may :june :march :august},
-   :southern
-   #{:february :january :december :september :october :march
-     :november}}}
- {:name "Peacock butterfly",
-  :price 2500,
-  :location "Flying by Hybrid Flowers",
-  :time "4am - 7pm",
-  :months
-  {:northern #{:april :may :june :march},
-   :southern #{:december :september :october :november}}}
- {:name "Common bluebottle",
-  :price 300,
-  :location "Flying",
-  :time "4am - 7pm",
-  :months
-  {:northern #{:july :april :may :june :august},
-   :southern #{:february :january :december :october :november}}}
- {:name "Paper kite butterfly",
-  :price 1000,
-  :location "Flying",
-  :time "8am - 7pm",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Great purple emperor",
+({:name "Agrias butterfly",
   :price 3000,
   :location "Flying",
-  :time "4am - 7pm",
-  :months
-  {:northern #{:july :may :june :august},
-   :southern #{:february :january :december :november}}}
- {:name "Monarch butterfly",
-  :price 140,
-  :location "Flying",
-  :time "4am - 5pm",
-  :months
-  {:northern #{:september :october :november},
-   :southern #{:april :may :march}}}
- {:name "Emperor butterfly",
-  :price 4000,
-  :location "Flying",
-  :time "5pm - 8am",
-  :months
-  {:northern
-   #{:february :july :january :december :september :june :march
-     :august},
-   :southern
-   #{:february :july :january :december :september :june :march
-     :august}}}
- {:name "Agrias butterfly",
-  :price 3000,
-  :location "Flying",
-  :time "8am - 5pm",
+  :time "8AM-5PM",
   :months
   {:northern #{:july :april :september :may :june :august},
    :southern
    #{:february :january :december :october :march :november}}}
- {:name "Rajah Brooke's birdwing",
-  :price 2500,
-  :location "Flying",
-  :time "8am - 5pm",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :august},
-   :southern
-   #{:february :july :january :december :june :october :march :november
-     :august}}}
- {:name "Queen Alexandra's birdwing",
-  :price 4000,
-  :location "Flying",
-  :time "8am - 4pm",
-  :months
-  {:northern #{:july :september :may :june :august},
-   :southern #{:february :january :december :march :november}}}
- {:name "Moth",
-  :price 130,
-  :location "Flying by Light",
-  :time "7pm - 4am",
+ {:name "Ant",
+  :price 80,
+  :location "On rotten food",
+  :time "All day",
   :months
   {:northern
    #{:february :july :january :april :december :september :may :june
@@ -115,94 +20,13 @@
  {:name "Atlas moth",
   :price 3000,
   :location "On Trees",
-  :time "7pm - 4am",
+  :time "7PM-4AM",
   :months
   {:northern #{:july :april :september :may :june :august},
    :southern
    #{:february :january :december :october :march :november}}}
- {:name "Madagascan sunset moth",
-  :price 2500,
-  :location "Flying",
-  :time "8am - 4pm",
-  :months
-  {:northern #{:july :april :september :may :june :august},
-   :southern
-   #{:february :january :december :october :march :november}}}
- {:name "Long locust",
-  :price 200,
-  :location "On the Ground",
-  :time "8am - 7pm",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :november :august},
-   :southern
-   #{:february :january :april :december :may :october :march
-     :november}}}
- {:name "Migratory locust",
+ {:name "Bagworm",
   :price 600,
-  :location "On the Ground",
-  :time "8am - 7pm",
-  :months
-  {:northern #{:september :october :november :august},
-   :southern #{:february :april :may :march}}}
- {:name "Rice grasshopper",
-  :price 160,
-  :location "On the Ground",
-  :time "8am - 7pm",
-  :months
-  {:northern #{:september :october :november :august},
-   :southern #{:february :april :may :march}}}
- {:name "Grasshopper",
-  :price 160,
-  :location "On the Ground",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:july :september :august},
-   :southern #{:february :january :march}}}
- {:name "Cricket",
-  :price 130,
-  :location "On the Ground",
-  :time "5pm - 8am",
-  :months
-  {:northern #{:september :october :november},
-   :southern #{:april :may :march}}}
- {:name "Bell cricket",
-  :price 430,
-  :location "On the Ground",
-  :time "5pm - 8am",
-  :months
-  {:northern #{:september :october}, :southern #{:april :march}}}
- {:name "Mantis",
-  :price 430,
-  :location "On Flowers",
-  :time "8am - 5pm",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :march :november
-     :august},
-   :southern
-   #{:february :january :april :december :september :may :october
-     :march :november}}}
- {:name "Orchid mantis",
-  :price 2400,
-  :location "On Flowers (White)",
-  :time "8am - 5pm",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :march :november
-     :august},
-   :southern
-   #{:february :january :april :december :september :may :october
-     :march :november}}}
- {:name "Honeybee",
-  :price 200,
-  :location "Flying",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:july :april :may :june :march},
-   :southern #{:january :december :september :october :november}}}
- {:name "Wasp",
-  :price 2500,
   :location "Shaking Trees",
   :time "All day",
   :months
@@ -212,158 +36,48 @@
    :southern
    #{:february :july :january :april :december :september :may :june
      :october :march :november :august}}}
+ {:name "Banded dragonfly",
+  :price 4500,
+  :location "Flying",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:july :september :may :june :october :august},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Bell cricket",
+  :price 430,
+  :location "On the Ground",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:september :october}, :southern #{:april :march}}}
+ {:name "Blue weevil beetle",
+  :price 800,
+  :location "On Trees (Coconut?)",
+  :time "All day",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
  {:name "Brown cicada",
   :price 250,
   :location "On Trees",
-  :time "8am - 5pm",
+  :time "8AM-5PM",
   :months
   {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Robust cicada",
+ {:name "Centipede",
   :price 300,
-  :location "On Trees",
-  :time "8am - 5pm",
+  :location "Hitting Rocks",
+  :time "4PM-11PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Giant cicada",
-  :price 500,
-  :location "On Trees",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Walker cicada",
-  :price 400,
-  :location "On Trees",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:september :august}, :southern #{:february :march}}}
- {:name "Evening cicada",
-  :price 550,
-  :location "On Trees",
-  :time "4am - 8am & 4pm - 7pm",
-  :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
+  {:northern
+   #{:february :january :april :december :september :may :june :october
+     :march :november},
+   :southern
+   #{:july :april :december :september :may :june :october :march
+     :november :august}}}
  {:name "Cicada shell",
   :price 10,
   :location "On Trees",
   :time "All day",
   :months
   {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Red dragonfly",
-  :price 180,
-  :location "Flying",
-  :time "8am - 7pm",
-  :months
-  {:northern #{:september :october}, :southern #{:april :march}}}
- {:name "Darner dragonfly",
-  :price 230,
-  :location "Flying",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:july :april :september :may :june :october :august},
-   :southern
-   #{:february :january :april :december :october :march :november}}}
- {:name "Banded dragonfly",
-  :price 4500,
-  :location "Flying",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:july :september :may :june :october :august},
-   :southern #{:february :january :april :december :march :november}}}
- {:name "Damselfly",
-  :price 500,
-  :location "Flying",
-  :time "All day",
-  :months
-  {:northern #{:february :january :december :november},
-   :southern #{:july :may :june :august}}}
- {:name "Firefly",
-  :price 300,
-  :location "Flying",
-  :time "7pm - 4am",
-  :months {:northern #{:june}, :southern #{:december}}}
- {:name "Mole cricket",
-  :price 500,
-  :location "Underground",
-  :time "All day",
-  :months
-  {:northern
-   #{:february :january :april :december :may :march :november},
-   :southern
-   #{:july :september :may :june :october :november :august}}}
- {:name "Pondskater",
-  :price 130,
-  :location "On Ponds and Rivers",
-  :time "8am - 7pm",
-  :months
-  {:northern #{:july :september :may :june :august},
-   :southern #{:february :january :december :march :november}}}
- {:name "Diving beetle",
-  :price 800,
-  :location "On Ponds and Rivers",
-  :time "8am - 7pm",
-  :months
-  {:northern #{:july :september :may :june :august},
-   :southern #{:february :january :december :march :november}}}
- {:name "Giant water bug",
-  :price 2000,
-  :location "On Ponds and Rivers",
-  :time "7pm - 8am",
-  :months
-  {:northern #{:july :april :september :may :june :august},
-   :southern
-   #{:february :january :december :october :march :november}}}
- {:name "Stinkbug",
-  :price 120,
-  :location "On Flowers",
-  :time "All day",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :march :august},
-   :southern
-   #{:february :january :april :december :september :october :march
-     :november}}}
- {:name "Man-faced stink bug",
-  :price 1000,
-  :location "On Flowers",
-  :time "7pm - 8am",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :march :august},
-   :southern
-   #{:february :january :april :december :september :october :march
-     :november}}}
- {:name "Ladybug",
-  :price 200,
-  :location "On Flowers",
-  :time "8am - 5pm",
-  :months
-  {:northern #{:april :may :june :october :march},
-   :southern #{:april :december :september :october :november}}}
- {:name "Tiger beetle",
-  :price 1500,
-  :location "On the Ground",
-  :time "All day",
-  :months
-  {:northern
-   #{:february :july :april :september :may :june :october :march
-     :august},
-   :southern
-   #{:february :january :april :december :september :october :march
-     :november :august}}}
- {:name "Jewel beetle",
-  :price 2400,
-  :location "On Tree Stumps",
-  :time "All day",
-  :months
-  {:northern #{:july :april :may :june :august},
-   :southern #{:february :january :december :october :november}}}
- {:name "Violin beetle",
-  :price 450,
-  :location "On Tree Stumps",
-  :time "All day",
-  :months
-  {:northern #{:september :may :june :october :november},
-   :southern #{:april :december :may :march :november}}}
  {:name "Citrus long-horned beetle",
   :price 350,
   :location "On Tree Stumps",
@@ -375,19 +89,66 @@
    :southern
    #{:february :july :january :april :december :september :may :june
      :october :march :november :august}}}
- {:name "Rosalia batesi beetle",
-  :price 3000,
-  :location "On Tree Stumps",
+ {:name "Common bluebottle",
+  :price 300,
+  :location "Flying",
+  :time "4AM-7PM",
+  :months
+  {:northern #{:july :april :may :june :august},
+   :southern #{:february :january :december :october :november}}}
+ {:name "Common butterfly",
+  :price 160,
+  :location "Flying",
+  :time "4AM-7PM",
+  :months
+  {:northern
+   #{:february :january :april :december :september :may :june :october
+     :march :november},
+   :southern
+   #{:july :april :december :september :may :june :october :march
+     :november :august}}}
+ {:name "Cricket",
+  :price 130,
+  :location "On the Ground",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:september :october :november},
+   :southern #{:april :may :march}}}
+ {:name "Cyclommatus stag",
+  :price 8000,
+  :location "On Trees (Coconut)",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Damselfly",
+  :price 500,
+  :location "Flying",
   :time "All day",
+  :months
+  {:northern #{:february :january :december :november},
+   :southern #{:july :may :june :august}}}
+ {:name "Darner dragonfly",
+  :price 230,
+  :location "Flying",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:july :april :september :may :june :october :august},
+   :southern
+   #{:february :january :april :december :october :march :november}}}
+ {:name "Diving beetle",
+  :price 800,
+  :location "On Ponds and Rivers",
+  :time "8AM-7PM",
   :months
   {:northern #{:july :september :may :june :august},
    :southern #{:february :january :december :march :november}}}
- {:name "Blue weevil beetle",
-  :price 800,
-  :location "On Trees (Coconut?)",
+ {:name "Drone beetle",
+  :price 200,
+  :location "On Trees",
   :time "All day",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
+  {:northern #{:july :june :august},
+   :southern #{:february :january :december}}}
  {:name "Dung beetle",
   :price 3000,
   :location "On the Ground (rolling snowballs)",
@@ -402,100 +163,433 @@
   :months
   {:northern #{:july :september :august},
    :southern #{:february :january :march}}}
- {:name "Scarab beetle",
-  :price 10000,
+ {:name "Emperor butterfly",
+  :price 4000,
+  :location "Flying",
+  :time "5PM-8AM",
+  :months
+  {:northern
+   #{:february :july :january :december :september :june :march
+     :august},
+   :southern
+   #{:february :july :january :december :september :june :march
+     :august}}}
+ {:name "Evening cicada",
+  :price 550,
   :location "On Trees",
-  :time "11pm - 8am",
+  :time "4AM-8AM & 4PM-7PM",
   :months
   {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Drone beetle",
-  :price 200,
-  :location "On Trees",
+ {:name "Firefly",
+  :price 300,
+  :location "Flying",
+  :time "7PM-4AM",
+  :months {:northern #{:june}, :southern #{:december}}}
+ {:name "Flea",
+  :price 70,
+  :location "Villager's Heads",
   :time "All day",
   :months
-  {:northern #{:july :june :august},
-   :southern #{:february :january :december}}}
+  {:northern
+   #{:july :april :september :may :june :october :november :august},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Fly",
+  :price 60,
+  :location "On Trash Items",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Giant cicada",
+  :price 500,
+  :location "On Trees",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Giant stag",
+  :price 10000,
+  :location "On Trees",
+  :time "11PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Giant water bug",
+  :price 2000,
+  :location "On Ponds and Rivers",
+  :time "7PM-8AM",
+  :months
+  {:northern #{:july :april :september :may :june :august},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Giraffe stag",
+  :price 12000,
+  :location "On Trees (Coconut?)",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Golden stag",
+  :price 12000,
+  :location "On Trees (Coconut)",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
  {:name "Goliath beetle",
   :price 8000,
   :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+  :time "5PM-8AM",
   :months
   {:northern #{:july :september :june :august},
    :southern #{:february :january :december :march}}}
- {:name "Saw stag",
-  :price 2000,
-  :location "On Trees",
-  :time "All day",
+ {:name "Grasshopper",
+  :price 160,
+  :location "On the Ground",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:july :september :august},
+   :southern #{:february :january :march}}}
+ {:name "Great purple emperor",
+  :price 3000,
+  :location "Flying",
+  :time "4AM-7PM",
+  :months
+  {:northern #{:july :may :june :august},
+   :southern #{:february :january :december :november}}}
+ {:name "Hermit crab",
+  :price 1000,
+  :location "Beach disguised as Shells",
+  :time "7PM-8AM",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Honeybee",
+  :price 200,
+  :location "Flying",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:july :april :may :june :march},
+   :southern #{:january :december :september :october :november}}}
+ {:name "Horned atlas",
+  :price 8000,
+  :location "On Trees (Coconut)",
+  :time "5PM-8AM",
   :months
   {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Horned dynastid",
+  :price 1350,
+  :location "On Trees",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Horned elephant",
+  :price 8000,
+  :location "On Trees (Coconut)",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Horned hercules",
+  :price 12000,
+  :location "On Trees (Coconut)",
+  :time "5PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Jewel beetle",
+  :price 2400,
+  :location "On Tree Stumps",
+  :time "All day",
+  :months
+  {:northern #{:july :april :may :june :august},
+   :southern #{:february :january :december :october :november}}}
+ {:name "Ladybug",
+  :price 200,
+  :location "On Flowers",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:april :may :june :october :march},
+   :southern #{:april :december :september :october :november}}}
+ {:name "Long locust",
+  :price 200,
+  :location "On the Ground",
+  :time "8AM-7PM",
+  :months
+  {:northern
+   #{:july :april :september :may :june :october :november :august},
+   :southern
+   #{:february :january :april :december :may :october :march
+     :november}}}
+ {:name "Madagascan sunset moth",
+  :price 2500,
+  :location "Flying",
+  :time "8AM-4PM",
+  :months
+  {:northern #{:july :april :september :may :june :august},
+   :southern
+   #{:february :january :december :october :march :november}}}
+ {:name "Man-faced stink bug",
+  :price 1000,
+  :location "On Flowers",
+  :time "7PM-8AM",
+  :months
+  {:northern
+   #{:july :april :september :may :june :october :march :august},
+   :southern
+   #{:february :january :april :december :september :october :march
+     :november}}}
+ {:name "Mantis",
+  :price 430,
+  :location "On Flowers",
+  :time "8AM-5PM",
+  :months
+  {:northern
+   #{:july :april :september :may :june :october :march :november
+     :august},
+   :southern
+   #{:february :january :april :december :september :may :october
+     :march :november}}}
+ {:name "Migratory locust",
+  :price 600,
+  :location "On the Ground",
+  :time "8AM-7PM",
+  :months
+  {:northern #{:september :october :november :august},
+   :southern #{:february :april :may :march}}}
  {:name "Miyama stag",
   :price 1000,
   :location "On Trees",
   :time "All day",
   :months
   {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Giant stag",
-  :price 10000,
-  :location "On Trees",
-  :time "11pm - 8am",
+ {:name "Mole cricket",
+  :price 500,
+  :location "Underground",
+  :time "All day",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Rainbow stag",
-  :price 6000,
-  :location "On Trees",
-  :time "7pm - 8am",
+  {:northern
+   #{:february :january :april :december :may :march :november},
+   :southern
+   #{:july :september :may :june :october :november :august}}}
+ {:name "Monarch butterfly",
+  :price 140,
+  :location "Flying",
+  :time "4AM-5PM",
+  :months
+  {:northern #{:september :october :november},
+   :southern #{:april :may :march}}}
+ {:name "Mosquito",
+  :price 130,
+  :location "Flying",
+  :time "5PM-4AM",
   :months
   {:northern #{:july :september :june :august},
    :southern #{:february :january :december :march}}}
- {:name "Cyclommatus stag",
-  :price 8000,
-  :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+ {:name "Moth",
+  :price 130,
+  :location "Flying by Light",
+  :time "7PM-4AM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Golden stag",
-  :price 12000,
-  :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Orchid mantis",
+  :price 2400,
+  :location "On Flowers (White)",
+  :time "8AM-5PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Giraffe stag",
-  :price 12000,
-  :location "On Trees (Coconut?)",
-  :time "5pm - 8am",
+  {:northern
+   #{:july :april :september :may :june :october :march :november
+     :august},
+   :southern
+   #{:february :january :april :december :september :may :october
+     :march :november}}}
+ {:name "Paper kite butterfly",
+  :price 1000,
+  :location "Flying",
+  :time "8AM-7PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Horned dynastid",
-  :price 1350,
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Peacock butterfly",
+  :price 2500,
+  :location "Flying by Hybrid Flowers",
+  :time "4AM-7PM",
+  :months
+  {:northern #{:april :may :june :march},
+   :southern #{:december :september :october :november}}}
+ {:name "Pill bug",
+  :price 250,
+  :location "Hitting Rocks",
+  :time "11PM-4PM",
+  :months
+  {:northern
+   #{:february :january :april :december :september :may :june :october
+     :march :november},
+   :southern
+   #{:july :april :december :september :may :june :october :march
+     :november :august}}}
+ {:name "Pondskater",
+  :price 130,
+  :location "On Ponds and Rivers",
+  :time "8AM-7PM",
+  :months
+  {:northern #{:july :september :may :june :august},
+   :southern #{:february :january :december :march :november}}}
+ {:name "Queen Alexandra's birdwing",
+  :price 4000,
+  :location "Flying",
+  :time "8AM-4PM",
+  :months
+  {:northern #{:july :september :may :june :august},
+   :southern #{:february :january :december :march :november}}}
+ {:name "Rainbow stag",
+  :price 6000,
   :location "On Trees",
-  :time "5pm - 8am",
+  :time "7PM-8AM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Horned atlas",
-  :price 8000,
-  :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+  {:northern #{:july :september :june :august},
+   :southern #{:february :january :december :march}}}
+ {:name "Rajah Brooke's birdwing",
+  :price 2500,
+  :location "Flying",
+  :time "8AM-5PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Horned elephant",
-  :price 8000,
-  :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :august},
+   :southern
+   #{:february :july :january :december :june :october :march :november
+     :august}}}
+ {:name "Red dragonfly",
+  :price 180,
+  :location "Flying",
+  :time "8AM-7PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Horned hercules",
-  :price 12000,
-  :location "On Trees (Coconut)",
-  :time "5pm - 8am",
+  {:northern #{:september :october}, :southern #{:april :march}}}
+ {:name "Rice grasshopper",
+  :price 160,
+  :location "On the Ground",
+  :time "8AM-7PM",
   :months
-  {:northern #{:july :august}, :southern #{:february :january}}}
- {:name "Walking stick",
-  :price 600,
+  {:northern #{:september :october :november :august},
+   :southern #{:february :april :may :march}}}
+ {:name "Robust cicada",
+  :price 300,
   :location "On Trees",
-  :time "4am - 8am & 5pm - 7pm",
+  :time "8AM-5PM",
   :months
-  {:northern #{:july :september :october :november :august},
-   :southern #{:february :january :april :may :march}}}
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Rosalia batesi beetle",
+  :price 3000,
+  :location "On Tree Stumps",
+  :time "All day",
+  :months
+  {:northern #{:july :september :may :june :august},
+   :southern #{:february :january :december :march :november}}}
+ {:name "Saw stag",
+  :price 2000,
+  :location "On Trees",
+  :time "All day",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Scarab beetle",
+  :price 10000,
+  :location "On Trees",
+  :time "11PM-8AM",
+  :months
+  {:northern #{:july :august}, :southern #{:february :january}}}
+ {:name "Scorpion",
+  :price 8000,
+  :location "On the Ground",
+  :time "7PM-4AM",
+  :months
+  {:northern #{:july :september :may :june :october :august},
+   :southern #{:february :january :april :december :march :november}}}
+ {:name "Snail",
+  :price 250,
+  :location "On Rocks (Rain)",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Spider",
+  :price 480,
+  :location "Shaking Trees",
+  :time "7PM-8AM",
+  :months
+  {:northern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august},
+   :southern
+   #{:february :july :january :april :december :september :may :june
+     :october :march :november :august}}}
+ {:name "Stinkbug",
+  :price 120,
+  :location "On Flowers",
+  :time "All day",
+  :months
+  {:northern
+   #{:july :april :september :may :june :october :march :august},
+   :southern
+   #{:february :january :april :december :september :october :march
+     :november}}}
+ {:name "Tarantula",
+  :price 8000,
+  :location "On the Ground",
+  :time "7PM-4AM",
+  :months
+  {:northern #{:february :january :april :december :march :november},
+   :southern #{:july :september :may :june :october :august}}}
+ {:name "Tiger beetle",
+  :price 1500,
+  :location "On the Ground",
+  :time "All day",
+  :months
+  {:northern
+   #{:february :july :april :september :may :june :october :march
+     :august},
+   :southern
+   #{:february :january :april :december :september :october :march
+     :november :august}}}
+ {:name "Tiger butterfly",
+  :price 240,
+  :location "Flying",
+  :time "4AM-7PM",
+  :months
+  {:northern #{:july :april :september :may :june :march :august},
+   :southern
+   #{:february :january :december :september :october :march
+     :november}}}
+ {:name "Violin beetle",
+  :price 450,
+  :location "On Tree Stumps",
+  :time "All day",
+  :months
+  {:northern #{:september :may :june :october :november},
+   :southern #{:april :december :may :march :november}}}
+ {:name "Walker cicada",
+  :price 400,
+  :location "On Trees",
+  :time "8AM-5PM",
+  :months
+  {:northern #{:september :august}, :southern #{:february :march}}}
  {:name "Walking leaf",
   :price 600,
   :location "Under Trees Disguised as Leafs",
@@ -503,32 +597,17 @@
   :months
   {:northern #{:july :september :august},
    :southern #{:february :january :march}}}
- {:name "Bagworm",
+ {:name "Walking stick",
   :price 600,
+  :location "On Trees",
+  :time "4AM-8AM & 5PM-7PM",
+  :months
+  {:northern #{:july :september :october :november :august},
+   :southern #{:february :january :april :may :march}}}
+ {:name "Wasp",
+  :price 2500,
   :location "Shaking Trees",
   :time "All day",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Ant",
-  :price 80,
-  :location "On rotten food",
-  :time "All day",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Hermit crab",
-  :price 1000,
-  :location "Beach disguised as Shells",
-  :time "7pm - 8am",
   :months
   {:northern
    #{:february :july :january :april :december :september :may :june
@@ -547,89 +626,10 @@
    :southern
    #{:february :july :january :april :december :september :may :june
      :october :march :november :august}}}
- {:name "Fly",
-  :price 60,
-  :location "On Trash Items",
-  :time "All day",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Mosquito",
-  :price 130,
+ {:name "Yellow butterfly",
+  :price 160,
   :location "Flying",
-  :time "5pm - 4am",
+  :time "4AM-7PM",
   :months
-  {:northern #{:july :september :june :august},
-   :southern #{:february :january :december :march}}}
- {:name "Flea",
-  :price 70,
-  :location "Villager's Heads",
-  :time "All day",
-  :months
-  {:northern
-   #{:july :april :september :may :june :october :november :august},
-   :southern
-   #{:february :january :april :december :may :october :march
-     :november}}}
- {:name "Snail",
-  :price 250,
-  :location "On Rocks (Rain)",
-  :time "All day",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Pill bug",
-  :price 250,
-  :location "Hitting Rocks",
-  :time "11pm - 4pm",
-  :months
-  {:northern
-   #{:february :january :april :december :september :may :june :october
-     :march :november},
-   :southern
-   #{:july :april :december :september :may :june :october :march
-     :november :august}}}
- {:name "Centipede",
-  :price 300,
-  :location "Hitting Rocks",
-  :time "4pm - 11pm",
-  :months
-  {:northern
-   #{:february :january :april :december :september :may :june :october
-     :march :november},
-   :southern
-   #{:july :april :december :september :may :june :october :march
-     :november :august}}}
- {:name "Spider",
-  :price 480,
-  :location "Shaking Trees",
-  :time "7pm - 8am",
-  :months
-  {:northern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august},
-   :southern
-   #{:february :july :january :april :december :september :may :june
-     :october :march :november :august}}}
- {:name "Tarantula",
-  :price 8000,
-  :location "On the Ground",
-  :time "7pm - 4am",
-  :months
-  {:northern #{:february :january :april :december :march :november},
-   :southern #{:july :september :may :june :october :august}}}
- {:name "Scorpion",
-  :price 8000,
-  :location "On the Ground",
-  :time "7pm - 4am",
-  :months
-  {:northern #{:july :september :may :june :october :august},
-   :southern #{:february :january :april :december :march :november}}}]
+  {:northern #{:april :september :may :june :october :march},
+   :southern #{:april :december :september :october :march :november}}})
